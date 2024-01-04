@@ -1,10 +1,15 @@
 import Image from 'next/image';
-import NavBar from './components/Navbar'
+import Sale from './components/Sale';
+import Categories from './components/Categories';
+import New_products from './components/New_Products';
 
-export default function Home() {
+
+export default function Home () {
   return (
-    <div>
-     <h1> hello wrld </h1>
-    </div>
+   <>
+    <Sale/>
+    <Categories/>
+    <New_products/>
+   </>
   )
 }
