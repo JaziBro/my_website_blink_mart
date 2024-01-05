@@ -12,17 +12,18 @@ import plants from '../../../public/plants.jpeg'
 import bedsheet from '../../../public/bedsheet.webp'
 import Link from 'next/link'
 
+
 const New_products = () => {
   return (
-    <div>
+    <div className='bg-yellow-200 min-h-full'>
         <h1 className='text-center text-3xl mt-10'>
             New Products
         </h1>
 
         <div className='w-full grid lg:grid-cols-5 grid-flow-row md:grid-cols-3 sm:grid-cols-2 gap-1 mt-3'>
-         <Link href="/product" className='text-lg mt-3 mx-10 sm:mt-3 sm:mx-10 hover:shadow-2xl'>
+         <Link href="/product" className='text-lg mt-3 mx-10 sm:mt-3 sm:mx-10 hover:shadow-2xl '>
             <Image src={wimpy_kid} alt='Wimpykid-book' className=' mx-auto mt-2'/>
-            <h3 className='mt-3'>Diary Of A Wimpy Kid: No Brainer by Jeff Kinney </h3>
+            <h3 className=''>Diary Of A Wimpy Kid: No Brainer by Jeff Kinney </h3>
             <h4 className='mt-5 text-sky-500'>Rs. 350</h4> 
          </Link>
 

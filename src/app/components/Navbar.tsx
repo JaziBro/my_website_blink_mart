@@ -20,9 +20,9 @@ import {
 const Navbar = () => { 
   return (
     <header className='w-full flex flex-wrap justify-between items-center h-16 border bg-sky-400'>
-      <div>
+      <Link href="/">
         <Image src={Logo} alt="blinkmart" width={200} height={200} className='mx-5'/>
-      </div>
+      </Link>
 
       <div className=''>     
         <ul className='text-lg font-medium hidden md:flex gap-x-10'>

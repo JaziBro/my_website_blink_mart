@@ -2,13 +2,13 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className=' text-center bg-sky-400 mt-10'> 
+    <div className='text-center bg-sky-400 mt-10'> 
         <h1 className='text-3xl font-bold text-yellow-400 mt-3'>Welcome to Blinkmart!</h1>
-        <p className='text-yellow-400 mt-5'>
+        <p className='text-yellow-300 mt-5'>
          At Blinkmart, we're not just an e-commerce platform; we're your dedicated destination for transformative shopping experiences and a vibrant community. Established in 2023, our journey began with a shared commitment to redefining online shopping, blending innovation, style, and unbeatable convenience. As your trusted partner, we curate a diverse selection of high-quality products, ensuring each purchase reflects our core values of transparency, sustainability, and customer-centricity. Join us on this exciting venture, where Blinkmart is more than a marketplace – it's a connection, a lifestyle, and a promise of unparalleled satisfaction in every interaction
         </p> 
 
-        <div className='text-center bg-yellow-300 mt-10'>
+        <div className='text-center bg-yellow-300  '>
             <h1 className='text-3xl font-bold text-sky-400 mt-3'>Our Story:</h1>
             <p className='text-sky-600 mt-5'>Embark on the Blinkmart story, a captivating narrative that unfolded in 2023. Born out of a collective passion for delivering top-notch products directly to your doorstep, Blinkmart set out to redefine online shopping. Our journey is one of constant evolution, fueled by a commitment to innovation, style, and ultimate convenience. As we grew, so did our dedication to values. At Blinkmart, we're not just a marketplace; we're a manifestation of the belief that quality should be accessible to all. Join us in shaping the future of online shopping, where every purchase tells a story of excellence, integrity, and the Blinkmart experience.</p>
         </div>

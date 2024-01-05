@@ -45,9 +45,9 @@ const Footer = () => {
 
           <div className='flex flex-col gap-5'>
             <FooterColumn title={SOCIALS.title}>
-              <ul className='text-[14px] text-yellow-200 mx-5'>
+              <ul className='text-[14px] text-yellow-200 mx-5 align-text-top'>
                 {SOCIALS.links.map((link) => (
-                  <Link href="/" key={link} className='mx-5'>
+                  <Link href="/" key={link} className='mx-5 lg:flex-row md:flex-col'>
                     <Image src={link} alt='logo' width={24} height={24}/>
                   </Link>
                 ))}

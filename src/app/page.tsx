@@ -5,6 +5,7 @@ import New_products from './components/New_Products';
 
 
 export default function Home () {
+ 
   return (
    <>
     <Sale/>

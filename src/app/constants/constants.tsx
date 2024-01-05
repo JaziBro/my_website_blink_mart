@@ -8,7 +8,6 @@ export const nav_links = [
     {href:"/Contact", key: "contact", label: "Contact" },
 ];
   
-
 export const FOOTER_LINKS = [
     {
       title: 'Learn More',
@@ -18,7 +17,6 @@ export const FOOTER_LINKS = [
       ],
     },
 ];
-
   
 export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
@@ -36,3 +34,4 @@ export const SOCIALS = {
     twitter,
   ],
 };
+
