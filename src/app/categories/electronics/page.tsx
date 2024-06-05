@@ -34,7 +34,7 @@ const page = () => {
 
     <div className='text-lg mt-3 mx-10 text-black sm:mt-3 sm:mx-10 hover:shadow-2xl '>
         <Image src={airfryer} alt='Airfryer' className=' mx-auto mt-2'/>
-        <h3 className='mt-3'>air fryer 5l digital touch display air fryer uk brand</h3>
+        <h3 className='mt-3'>Air Fryer 5l digital touch display air fryer uk brand</h3>
         <h4 className='mt-5 text-sky-500'>Rs. 18,000</h4>
     </div>
 
